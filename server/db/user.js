@@ -17,7 +17,7 @@ const User = db.define('user', {
         allowNull: false,
         unique: true
     },
-    bio: {
+    gender: {
         type: Sequelize.STRING,
         allowNull: false,
         unique: false
